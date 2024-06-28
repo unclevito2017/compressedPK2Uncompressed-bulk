@@ -43,6 +43,6 @@ def process_keys(input_file, output_file):
                 print(f"Skipping invalid compressed public key {line}: {e}")
 
 # Replace 'compressed_keys.txt' with your input file name and 'uncompressed_keys.txt' with your desired output file name
-input_file = 'compressed_keys.txt.txt'
+input_file = 'compressed_keys.txt'
 output_file = 'uncompressed_keys.txt'
 process_keys(input_file, output_file)
